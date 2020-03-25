@@ -1,0 +1,23 @@
+{
+  "name": "github-pages",
+  "version": "1.0.0",
+  "description": "My splendid Nuxt.js project",
+  "author": "Craig Peckett",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0",
+    "@nuxtjs/axios": "^5.3.6"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0",
+    "cross-env": "^7.0.2"
+  }
+}
